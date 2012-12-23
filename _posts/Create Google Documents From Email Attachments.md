@@ -1,5 +1,7 @@
-Date: 2012-03-15
-Title: Create Google Documents From Email Attachments
+---
+layout: post
+title: Create Google Documents From Email Attachments
+---
 
 
  A friend one day asked on Twitter:
