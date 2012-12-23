@@ -1,5 +1,7 @@
-Date: 2011-01-31
-Title: What's using all the disk space on my unix file system?
+---
+layout: post
+title: What's using all the disk space on my unix file system?
+---
 
 Have you ever logged into a unix server to see a file system at 100%? Here's a
 quick and dirty way to track down what file or directory is using up all the

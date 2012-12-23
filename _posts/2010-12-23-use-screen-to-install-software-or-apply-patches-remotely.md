@@ -1,5 +1,7 @@
-Date: 2010-12-23
-Title: Using screen to install software or apply patches remotely
+---
+layout: post
+title: Using screen to install software or apply patches remotely
+---
 
 Having to install software or apply patches from home is convenient, saving
 you from driving into the office. It does come with a bit of extra risk in

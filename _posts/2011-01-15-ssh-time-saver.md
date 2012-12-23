@@ -1,5 +1,7 @@
-Date: 2011-01-25
-Title: SSH Time Saver
+---
+layout: post
+title: SSH Time Saver
+---
 
 If you're logging into several SSH terminals throughout your work day, here's
 a quick client config change that will save you some keystrokes:

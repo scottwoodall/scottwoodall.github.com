@@ -1,5 +1,7 @@
-Date: 2012-07-31
-Title: Django With An Oracle Backend
+---
+layout: post
+title: Django With An Oracle Backend
+---
 
 
 I'm a long time PostgreSQL user and due to business/security requirements am having to use Oracle as a Django backend. This post is a place for me to keep notes when dealing with Oracle. These notes are specific to a Linux environment running Redhat Enterprise 6. The application and database servers are separate hosts.
