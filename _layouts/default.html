@@ -1,14 +1,15 @@
+{% assign description = "Ruby developer." %}
 <!doctype html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
 <html lang="en"> 
 <!--<![endif]-->
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><!-- Force Latest IE rendering engine -->
-    <title>scottwoodall.com</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>{{ page.title }}</title>
 
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -30,9 +31,9 @@
     <div class="container">	
       <div id='mobile' class='two columns hidden'>
         <ul>
-          <li><a href='/'>Test</a></li>
           <li><span class="gray">Scott Woodall</span></li>
-          <li><a href="mailto:scott.woodall@gmail.com">scott.woodall@gmail.com</a></li>
+          <li><a href="mailto:scott.woodall@gmail.com">
+             scott.woodall@gmail.com</a></li>
           <li><a href="http://twitter.com/scott_woodall">@scott_woodall</a></li>
         </ul>
       </div>
@@ -43,32 +44,35 @@
 
           <ul id="social">
             <li>
-              <a href="mailto:scott.woodall@gmail.com?subject=hi" class="icon-envelope-alt" title="Say hi"></a>
+              <a href="mailto:scott.woodall@gmail.com?subject=hi"
+                class="icon-envelope-alt" title="Say hi"></a>
             </li>
 
             <li>
-              <a href="http://twitter.com/scott_woodall">@scott_woodall</a>
+              <a href="http://twitter.com/scott_woodall" class="icon-twitter" 
+                title="You should follow me" style="font-size: 28px;"></a>
             </li>
 
             <li>
-              <a href="http://github.com/scottwoodall" class="icon-github" title="I share and fork code here"></a>
+              <a href="http://github.com/scottwoodall" class="icon-github"
+                title="I share and fork code here"></a>
             </li>
 
             <li>
-              <a href="skype:scwoodal?add" class="icon-comment" title="Feel free to add me on Skype"></a>
+              <a href="skype:scwoodal?add" class="icon-comment"
+                title="Feel free to add me on Skype"></a>
             </li>
-
           </ul>
 
           <ul id="me">
-            <li></span>Scott Woodall</span></li>
-            <li class="gray">Python / Django developer</li>
+            <li>Scott Woodall</span></li>
+            <li class="gray">{{ description }}</li>
           </ul>
 
         </section>
       </div>
 
-      content
+      {{ content }}
     </div>
   </body>
 </html>
