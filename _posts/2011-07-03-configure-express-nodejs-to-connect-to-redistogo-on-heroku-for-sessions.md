@@ -1,5 +1,7 @@
-Date: 2011-07-13
-Title: Configure Express (Node.js) to Connect to RedisToGo on Heroku for Sessions
+---
+layout: post
+title: Configure Express (Node.js) to Connect to RedisToGo on Heroku for Sessions
+---
 
 Developing an application using the [Express](http://expressjs.com/) framework
 built on top of [node.js](http://nodejs.org) and deploying it to
