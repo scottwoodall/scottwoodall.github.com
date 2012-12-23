@@ -1,5 +1,7 @@
-Date: 2011-06-25
-Title: jQuery Mobile:Keep Your Filtered Results After Performing a Backbone.js 
+---
+layout: post
+title: jQuery Mobile:Keep Your Filtered Results After Performing a Backbone.js sort
+---
 
 One of the features that [jQuery Mobile](http://jquerymobile.com/) brings to
 the table are
