@@ -3,16 +3,16 @@ layout: post
 title: Request Tracker and Postgres Performance
 ---
 
-
 At work we recently switched to a new helpdesk ticketing system
 called [Request Tracker](http://bestpractical.com/rt/) with [Postgres 9.2](http://www.postgresql.org/) as the data store.
 
 Not long after launch the application was taking **ten plus seconds** to render most pages. In an organization with thousands of people using the site, that adds up to a metric ton of productivity left on the table and people hating on the application.
+
 [![](/static/images/no_time_for_dat_http_request.jpg)](/static/images/no_time_for_dat_http_request.jpg)
 
-So where to begin? I’m not familiar with the Request Tracker code base so lets roll with the old adage of “don’t optimize prematurely” and figure out what is going before making any changes.
+So where to begin? I’m not familiar with the Request Tracker code base so lets roll with the old adage of “don’t optimize prematurely” and figure out what is going before making any changes. Challenge accepted.
 
-    challenge accepted
+[![](/static/images/challenge.jpg)](/static/images/challenge.jpg)
 
 I began by hooking [Devel::NYTProf](http://search.cpan.org/~timb/Devel-NYTProf-5.03/lib/Devel/NYTProf.pm) into our development instance of the application to get a profile of what was going on. An environment variable is needed so we can exit out of the process and still have NYTProf write all its information to the output file.
 
@@ -72,7 +72,7 @@ Well hello there Mr. Sequence Scan and your mistress Rows Removed by Filter. Tim
 
 [![](/static/images/obama_not_bad.jpg)](/static/images/obama_not_bad.jpg)
 
-I repeated this process for four additional queries relating to the Groups table and a few minutes later I started getting IM’s from co-workers:
+Bazinga! Our query now takes .076ms instead of 573ms, I bet that makes a difference. I repeated this process for four additional queries relating to the Groups table and a few minutes later I started getting IM’s from co-workers:
 
     “Jeeze. Everything just ZINGs.”
     “I was just about to take UP smoking just to have something to kill the time.”
