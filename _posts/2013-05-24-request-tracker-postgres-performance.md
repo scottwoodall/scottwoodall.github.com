@@ -10,11 +10,11 @@ Not long after launch the application was taking **ten plus seconds** to render 
 
 [![](/static/images/no_time_for_dat_http_request.jpg)](/static/images/no_time_for_dat_http_request.jpg)
 
-So where to begin? I’m not familiar with the Request Tracker code base so lets roll with the old adage of “don’t optimize prematurely” and figure out what is going before making any changes. Challenge accepted.
+So where to begin? I’m not familiar with the Request Tracker code base so lets roll with the old adage of “don’t optimize prematurely” and figure out what is going on before making any changes. Challenge accepted.
 
 [![](/static/images/challenge.jpg)](/static/images/challenge.jpg)
 
-I began by hooking [Devel::NYTProf](http://search.cpan.org/~timb/Devel-NYTProf-5.03/lib/Devel/NYTProf.pm) into our development instance of the application to get a profile of what was going on. An environment variable is needed so we can exit out of the process and still have NYTProf write all its information to the output file.
+I began by hooking [Devel::NYTProf](http://search.cpan.org/~timb/Devel-NYTProf-5.03/lib/Devel/NYTProf.pm) into our development instance of the application to get a profile of what was going on. An environment variable is needed so we can exit out of the process and still have NYTProf write all its information cleanly to the output file.
 
     $ export NYTPROF=sigexit=1
     $ perl -d:NYTProf /opt/rt/sbin/standalone_httpd --port 8080
@@ -70,9 +70,12 @@ Well hello there Mr. Sequence Scan and your mistress Rows Removed by Filter. Tim
     Index Cond: (instance = 1006089)
     Total runtime: 0.076 ms
 
+Bazinga! Our query now takes .076ms instead of 573ms, I bet that makes a difference.
+
 [![](/static/images/obama_not_bad.jpg)](/static/images/obama_not_bad.jpg)
 
-Bazinga! Our query now takes .076ms instead of 573ms, I bet that makes a difference. I repeated this process for four additional queries relating to the Groups table and a few minutes later I started getting IM’s from co-workers:
+I repeated this process for four additional queries relating to the Groups table and a few minutes later I started getting IM’s from co-workers:
+
 
     “Jeeze. Everything just ZINGs.”
     “I was just about to take UP smoking just to have something to kill the time.”
