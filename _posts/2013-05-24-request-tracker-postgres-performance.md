@@ -80,6 +80,6 @@ I repeated this process for four additional queries relating to the Groups table
     “Jeeze. Everything just ZINGs.”
     “I was just about to take UP smoking just to have something to kill the time.”
 
-Page loads were now sub 1 second and my job was done.
+Page loads were now sub 1 second...
 
 [![](/static/images/blow_up.gif)](/static/images/blow_up.gif)
