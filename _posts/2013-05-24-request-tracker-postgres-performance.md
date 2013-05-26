@@ -6,7 +6,7 @@ title: Request Tracker and Postgres Performance
 At work we recently switched to a new helpdesk ticketing system
 called [Request Tracker](http://bestpractical.com/rt/) with [Postgres 9.2](http://www.postgresql.org/) as the data store.
 
-Not long after launch the application was taking **ten plus seconds** to render most pages. In an organization with thousands of people using the site, that adds up to a metric ton of productivity left on the table and people hating on the application.
+Not long after launch the application was taking **ten plus seconds** to render most pages. In an organization with thousands of people using the site, that adds up to a metric ton of productivity left on the table and people hating (rightfully so) on the application.
 
 [![](/static/images/no_time_for_dat_http_request.jpg)](/static/images/no_time_for_dat_http_request.jpg)
 
