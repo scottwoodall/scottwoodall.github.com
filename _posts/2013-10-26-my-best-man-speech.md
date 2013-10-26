@@ -35,9 +35,7 @@ The purpose of posting this is thirty years from now I'll hopefully still be abl
 	
 	Needless to say she left the house shortly after.
 	
-	Being the best man I asked myself what could I possibly do to help Ryan and Stephanie start off on the right foot?
-	
-	So I brought some gifts to help Ryan fix these quirks that I've just mentioned to you.
+	Being the best man I asked myself what could I possibly do to help Ryan and Stephanie start off on the right foot? So I brought some gifts to help Ryan fix these quirks that I've just mentioned to you.
 	
 	First, I purchased an exact replica of Tupac's death certificate. It's time to let go buddy; he's not coming back.
 	
@@ -47,6 +45,6 @@ The purpose of posting this is thirty years from now I'll hopefully still be abl
 	
 	And finally I've purchased you an autographed copy of the New York Times best selling book "50 Shades of What To Tell A Woman If She Ever Asks What You Want For Your Birthday", authored by yours truly.
 	
-	Everyone please join me in a toast. I love the both of you and wish you that your dreams come true.
+	Everyone please join me in a toast. I love the both of you and wish that your dreams come true.
 	
 	To love, to laughter and to happily ever after.
