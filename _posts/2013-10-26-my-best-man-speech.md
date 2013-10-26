@@ -33,7 +33,8 @@ The purpose of posting this is thirty years from now I'll hopefully still be abl
 	
 	You see Ryan has never been good with the ladies. While attending IU all his friends threw him a party on his birthday. Throughout the night there was one girl who was showing Ryan a lot of interest. Towards the end she cornered Ryan and asked "If you could have one thing for your birthday what would it be?" Ryan's response? "A trip to Cancun."	
 	
-	Needless to say she left the house shortly after.	
+	Needless to say she left the house shortly after.
+	
 	Being the best man I asked myself what could I possibly do to help Ryan and Stephanie start off on the right foot?
 	
 	So I brought some gifts to help Ryan fix these quirks that I've just mentioned to you.
