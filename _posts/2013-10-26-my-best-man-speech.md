@@ -45,6 +45,6 @@ The purpose of posting this is thirty years from now I'll hopefully still be abl
 	
 	And finally I've purchased you an autographed copy of the New York Times best selling book "50 Shades of What To Tell A Woman If She Ever Asks What You Want For Your Birthday", authored by yours truly.
 	
-	Everyone please join me in a toast. I love the both of you and wish that your dreams come true.
+	Everyone please join me in a toast. I love you both and wish that your dreams come true.
 	
 	To love, to laughter and to happily ever after.
